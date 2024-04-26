@@ -1,0 +1,99 @@
+header{
+  position: relative;
+}
+.main {
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 25px;
+  font-weight: 600;
+}
+.nav {
+  display: flex;
+  gap: 40px;
+  font-size: 15px;
+  font-weight: 300;
+  
+}
+.link {
+  color: black;
+  transition: opacity 500ms;
+}
+.link:hover {
+  opacity: 0.5;
+}
+.img {
+  display: flex;
+  margin-top: 20px;
+  background: url(../../img/ggg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: multiply;
+  background-color: #bcbcbc;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.img::after {
+  content: "Лучшие товары для вашего дома";
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  width: 300px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.img::before {
+  content: "По низким ценам";
+  position: absolute;
+  top: 250px;
+  left: 50px;
+  width: 300px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.shopCartButton{
+  float: right;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+.shopCartButton.active{
+  transform: scale(1.3);
+  color: #dc3d3d;
+}
+.shopCartButton:hover{
+  color: #dc3d3d;
+}
+
+.shopCart{
+  position: absolute;
+  top: 30px;
+  right: 0;
+  width: 450px;
+  padding: 20px;
+  background-color: #fafafa;
+  -webkit-box-shadov:4px 5px 15px -7px #606060;
+ box-shadow: 4px 5px 15px -7px #606060;
+ z-index: 2;
+ right: 10px;
+ padding-bottom: 0;
+}
+.text{
+  padding-bottom: 20px;
+}
+.allPrice{
+  float: left;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom:20px ;
+}

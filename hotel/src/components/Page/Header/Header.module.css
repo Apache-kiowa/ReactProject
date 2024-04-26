@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 34px;
+  padding-bottom: 36px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.img {
+  width: 18px;
+  height: 18px;
+}
+.link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  color: rgb(65, 82, 46);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.41px;
+  text-align: right;
+}
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}

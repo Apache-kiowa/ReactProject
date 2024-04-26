@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+body {
+ 
+  color: #222;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  margin-right: calc(50% - 1280px / 2);
+  margin-left: calc(50% - 1280px / 2);
+  
+}

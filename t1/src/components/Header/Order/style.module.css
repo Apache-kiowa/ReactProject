@@ -1,0 +1,27 @@
+.OrderItem {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+ 
+}
+.OrderItem__img {
+  width: 70px;
+  float: left;
+  margin-right: 20px;
+  
+}
+h2{
+  font-size:20px ;
+  margin-bottom: 10px;
+}
+b{
+  color: #797979 ;
+  font-weight: 600;
+}
+.deleteIcon{
+  color: #ca5252;
+  float: right;
+  position: relative;
+  cursor: pointer;
+  
+}

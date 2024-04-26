@@ -1,0 +1,116 @@
+.Item {
+  display: flex;
+  flex-direction: column;
+}
+.SectionsTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 30px;
+}
+.heart * {
+  width: 21px;
+  height: 18px;
+  border: 1px solid rgb(196, 196, 196);
+  background: rgb(255, 255, 255);
+}
+.heart:hover * {
+  fill: rgb(235, 235, 235);
+}
+.line {
+  border-radius: 8px;
+
+  background: rgba(135, 135, 135, 0.2);
+  color: rgba(135, 135, 135, 0.2);
+  height: 1px;
+
+  max-width: 100%;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.nameHotel {
+  padding-top: 3px;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: -0.41px;
+  text-align: left;
+  color: rgb(66, 66, 66);
+  max-width: 360px;
+  overflow: hidden;
+  height: 21px;
+}
+.houseLogoСircle {
+  background: rgba(65, 82, 46, 0.05);
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 22px;
+  margin-top: 3px;
+}
+
+.dateText {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.41px;
+  text-align: left;
+  color: rgb(135, 135, 135);
+}
+
+.SectionsTwoBox {
+  display: flex;
+  padding-bottom: 6px;
+  align-items: baseline;
+}
+.priceText {
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: -0.41px;
+  text-align: left;
+  color: rgb(135, 135, 135);
+  padding-right: 8px;
+}
+.price {
+  margin-top: 22px;
+  width: 74px;
+  color: rgb(66, 66, 66);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.41px;
+  text-align: right;
+}
+.star {
+  margin-right: 3px;
+  margin-top: 5px;
+}
+.star:hover * {
+  fill: rgb(205, 188, 30);
+}
+.sectionOne {
+  display: flex;
+}
+.btnHeart {
+  border: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.heartActive * {
+  width: 21px;
+  height: 18px;
+  border: 1px solid rgb(196, 196, 196);
+  background: rgb(255, 255, 255);
+  fill: rgb(229, 88, 88);
+}
+.heartActive:hover * {
+  fill: rgb(174, 17, 17);
+}

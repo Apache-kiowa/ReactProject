@@ -1,0 +1,122 @@
+.calendarBoxNone {
+  display: none;
+ 
+}
+.calendarBoxFlex{
+  display: flex;
+}
+
+.calendar {
+ 
+  border-radius: 8px;
+  width: 338px;
+  height: 356px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 8px;
+  /* mobile */
+  box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(255, 255, 255);
+  padding: 32px;
+  padding-bottom: 35px;
+}
+.calendarBox {
+}
+.select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Дополнительные стили */
+  padding: 5px 30px 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 16px;
+}
+.selectOne {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Дополнительные стили */
+  padding: 5px 30px 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 16px;
+}
+.headSelect {
+  display: flex;
+  margin-bottom: 35px;
+  justify-content: space-between;
+}
+.selectBox {
+  display: flex;
+}
+
+.link {
+  display: flex;
+  gap: 34px;
+}
+.weekDay {
+  width: 19px;
+  height: 18px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: lowercase;
+  color: rgb(189, 189, 189);
+}
+tr > td:not(:first-child):not(:last-child) {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  padding: 16px;
+}
+tr > td:first-child {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  padding: 16px 16px 16px 0;
+}
+tr > td:last-child {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  padding: 16px;
+  padding: 16px 0 16px 16px;
+}
+
+.weekDays {
+  padding-left: 20px;
+}
+.day {
+  cursor: pointer;
+}
+.day:hover {
+  color: rgb(209, 15, 15);
+}
+.day:active{
+  color: rgb(103, 12, 12);
+}
+
+.buttonNext {
+  width: 24px;
+  height: 22px;
+
+  
+}
+.buttonPrev {
+  width: 24px;
+  height: 22px;
+  
+}
+

@@ -1,0 +1,97 @@
+.Item {
+  display: flex;
+  flex-direction: column;
+}
+.SectionsTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.heart * {
+  width: 21px;
+  height: 18px;
+  border: 1px solid rgb(196, 196, 196);
+  background: rgb(255, 255, 255);
+  fill: rgb(229, 88, 88);
+}
+.heart:hover * {
+  fill: rgb(139, 33, 33);
+}
+.line {
+  border-radius: 8px;
+
+  background: rgba(135, 135, 135, 0.2);
+  color: rgba(135, 135, 135, 0.2);
+  height: 1px;
+
+  max-width: 96%;
+}
+.content {
+  display: flex;
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.nameHotel {
+  padding-bottom: 4px;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: -0.41px;
+  text-align: left;
+  color: rgb(66, 66, 66);
+  max-width: 250px;
+  overflow: hidden;
+  height: 22px;
+}
+.houseLogoСircle {
+  background: rgba(65, 82, 46, 0.05);
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 22px;
+  margin-top: 3px;
+}
+
+.dateText {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.41px;
+  text-align: left;
+  color: rgb(135, 135, 135);
+}
+
+.priceText {
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: -0.41px;
+  text-align: left;
+  color: rgb(135, 135, 135);
+  margin-right: 8px;
+}
+.price {
+}
+.star {
+}
+.star:hover * {
+  fill: rgb(205, 188, 30);
+}
+.starsBox {
+  display: flex;
+  /* gap: 87px; */
+}
+.stars {
+  display: flex;
+  gap: 4px;
+  padding-right: 87px;
+  padding-top:10px ;
+}
+.sectionBox {
+  display: flex;
+  justify-content: space-between;
+}

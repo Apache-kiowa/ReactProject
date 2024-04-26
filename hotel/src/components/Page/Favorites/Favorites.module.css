@@ -1,0 +1,85 @@
+.Favorites {
+  border-radius: 16px;
+
+  /* Card */
+  box-shadow: 0px 4px 33px 0px rgba(0, 0, 0, 0.04);
+  background: rgb(255, 255, 255);
+  padding: 32px;
+  margin-top: 22px;
+}
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgb(66, 66, 66);
+}
+.btns{
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.btnOne {
+  
+  width: 51px;
+  height: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  padding: 4px 30px 4px 8px;
+
+  border: 1px solid rgb(65, 82, 46);
+  border-radius: 4px;
+  background: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.41px;
+  text-align: left;
+  color: rgb(65, 82, 46);
+}
+.btnTwo {
+  margin-left: 8px;
+  width: 33px;
+  height: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  padding: 4px 30px 4px 8px;
+
+  border: 1px solid rgb(65, 82, 46);
+  border-radius: 4px;
+  background: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.41px;
+  text-align: left;
+  color: rgb(65, 82, 46);
+}
+
+.itemBox {
+  height: 296px;
+  overflow: auto;
+  
+}
+
+.itemBox::-webkit-scrollbar {
+  width: 2px; 
+}
+
+.itemBox::-webkit-scrollbar-track {
+  border-radius: 2px;
+
+  background: rgb(231, 231, 231);
+}
+
+.itemBox::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+
+  background: rgb(65, 82, 46); 
+ 
+}

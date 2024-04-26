@@ -1,0 +1,28 @@
+.backgrImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../../img/back.png") center/cover;
+  
+}
+
+.backgr {
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 100%;
+  height: 100%;
+}
+
+.regBox {
+ 
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+  padding: 32px;
+  max-width: 409px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

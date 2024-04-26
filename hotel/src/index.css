@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(229, 229, 229);
+  font-family: "Roboto", sans-serif;
+}
+a{
+  text-decoration: none;
+}

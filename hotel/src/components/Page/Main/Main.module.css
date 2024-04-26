@@ -1,0 +1,90 @@
+.Main {
+  padding: 48px 32px 48px 32px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 24px;
+  border-radius: 16px;
+
+  /* Card */
+  box-shadow: 0px 4px 33px 0px rgba(0, 0, 0, 0.04);
+  background: rgb(255, 255, 255);
+}
+.MainBox {
+  width: 600px;
+  height: 806px;
+  background-color: rgb(255, 255, 255);
+}
+.sectionOne {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+.title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgb(66, 66, 66);
+}
+.sectionOneBox {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.sectionOneBox img {
+  width: 8.67px;
+  height: 17.33px;
+}
+.sectionOneSity {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgb(66, 66, 66);
+}
+.date {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: rgb(65, 82, 46);
+}
+.slider img {
+  width: 164px;
+  height: 149px;
+}
+.text {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: -0.41px;
+  text-align: left;
+  color: rgb(66, 66, 66);
+  padding-bottom:20px ;
+  padding-top: 28px;
+}
+.itemBox {
+  height: 524px;
+  overflow: auto;
+  padding-right: 14px;
+}
+
+.itemBox::-webkit-scrollbar {
+  width: 2px; 
+}
+
+.itemBox::-webkit-scrollbar-track {
+  border-radius: 2px;
+
+  background: rgb(231, 231, 231);
+}
+
+.itemBox::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+
+  background: rgb(65, 82, 46); 
+ 
+}

@@ -1,0 +1,19 @@
+.categories{
+  display: flex;
+  
+}
+.categories div{
+  background:#f2f2f2 ;
+  border-radius: 50px;
+  padding: 10px 20px ;
+  
+  margin-right: 15px;
+  margin-top: 35px ;
+  cursor: pointer;
+  border: 1px solid transparent ;
+  transition: all 0.5s ease;
+}
+.categories div:hover{
+  border-color: silver;
+  transform: scale(1.1);
+}
